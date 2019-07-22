@@ -131,5 +131,3 @@ int main()
     }
     return 0;
 }
-cou<<"叫爸爸！"<<endl;
-    
