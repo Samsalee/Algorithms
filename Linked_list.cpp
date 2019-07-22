@@ -124,6 +124,7 @@ int main()
     ListNode **headNode=&head;
     RemoveNode(headNode,13);
      ListNode *ptr = head;
+     DeleleNode(headNode,3);
     while (ptr != nullptr)
     {
         cout << ptr->key << " "; // Process node
