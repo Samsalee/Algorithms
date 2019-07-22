@@ -109,7 +109,23 @@ void DeleleNode(ListNode**headnode,int position)
          delete thedeleled;
          thedeleled=0;
      }  
-}
+};
+//删除整个链表
+void DeleleLinkedList(ListNode **head)
+{
+    ListNode *first,*second;
+    first=*head;
+    while (first)
+    {
+        second=first->next;
+        delete first;
+        first=second; 
+    }
+    head=nullptr;
+     
+};
+
+
 int main()
 {
     ListNode *head = nullptr;
