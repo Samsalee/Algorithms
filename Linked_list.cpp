@@ -123,8 +123,8 @@ int main()
     cout << "Second item is " << head->next->key<< endl;
     ListNode **headNode=&head;
     RemoveNode(headNode,13);
-     ListNode *ptr = head;
-     DeleleNode(headNode,3);
+    ListNode *ptr = head;
+    DeleleNode(headNode,3);
     while (ptr != nullptr)
     {
         cout << ptr->key << " "; // Process node
